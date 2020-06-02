@@ -25,6 +25,7 @@ country = readOGR("/net/nfs/squam/raid/userdata/dgrogan/data/map_data/FAOCountry
 ### WBM output from geotiff files
 
 # Total crop + pasture ET
+GDALinfo("/net/nfs/squam/raid/data/GLEAM/WBM/GLEAM_v2/GeoTIFF/monthly_clim/BW_ET/BW_ET_mc.0000-01-00.tif")
 GDALinfo(file.path(path, "etIrrCrops/etIrrCrops_yc.0000-00-00.tif")) # view metadata
 # UNITS: mm/day
 
